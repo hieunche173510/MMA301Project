@@ -1,0 +1,186 @@
+[{
+  "_id": {
+    "$oid": "67db1cc43315fa6a4a6284a9"
+  },
+  "user_id": {
+    "$oid": "67cbb4688bed3aff505a063a"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67c0a762065d363b1e961733"
+      },
+      "name": "Hạ đỏ",
+      "price": 120000,
+      "quantity": 1,
+      "image": "http://example.com/image.jpg",
+      "_id": {
+        "$oid": "67db1cbb3315fa6a4a628498"
+      }
+    }
+  ],
+  "total_price": 120000,
+  "payment_method": "COD",
+  "status": "Completed",
+  "created_at": {
+    "$date": "2025-03-19T19:36:36.542Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67db1db8cb9030f97bed6c1c"
+  },
+  "user_id": {
+    "$oid": "67cbb4688bed3aff505a063a"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67c0a77b065d363b1e961736"
+      },
+      "name": "Cây chuối non đi giày xanh",
+      "price": 125000,
+      "quantity": 1,
+      "image": "http://example.com/image.jpg",
+      "_id": {
+        "$oid": "67db1dafcb9030f97bed6c0b"
+      }
+    }
+  ],
+  "total_price": 125000,
+  "payment_method": "COD",
+  "status": "Delivering",
+  "created_at": {
+    "$date": "2025-03-19T19:40:40.862Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67df9b9459b117bb31e5320f"
+  },
+  "user_id": {
+    "$oid": "67cbb4688bed3aff505a063a"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67c0a77b065d363b1e961736"
+      },
+      "name": "Cây chuối non đi giày xanh",
+      "price": 125000,
+      "quantity": 1,
+      "image": "http://example.com/image.jpg",
+      "_id": {
+        "$oid": "67df9b8359b117bb31e531f6"
+      }
+    },
+    {
+      "product_id": {
+        "$oid": "67cf99ab8814ea1821011e7e"
+      },
+      "name": "Người đàn bà làng chài",
+      "price": 115000,
+      "quantity": 1,
+      "image": "",
+      "_id": {
+        "$oid": "67df9b8859b117bb31e531fd"
+      }
+    }
+  ],
+  "total_price": 240000,
+  "payment_method": "COD",
+  "status": "Pending",
+  "created_at": {
+    "$date": "2025-03-23T05:26:44.052Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e031e402eeb713873ce87e"
+  },
+  "user_id": {
+    "$oid": "67cbb4688bed3aff505a063a"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67d7a5ec495d8d1a0fef13c0"
+      },
+      "name": "\"Mưa nhỏ\"",
+      "price": 145000,
+      "quantity": 1,
+      "image": "/uploads/1742185964755.jfif",
+      "_id": {
+        "$oid": "67e031da02eeb713873ce86f"
+      }
+    }
+  ],
+  "total_price": 145000,
+  "payment_method": "COD",
+  "status": "Cancelled",
+  "created_at": {
+    "$date": "2025-03-23T16:08:04.387Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e0d51550e38027256b40af"
+  },
+  "user_id": {
+    "$oid": "67cbb4688bed3aff505a063a"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67dad618e0e2c0600cc1e19f"
+      },
+      "name": "\"Gió\"",
+      "price": 145000,
+      "quantity": 1,
+      "image": "/uploads/1742394904978.png",
+      "_id": {
+        "$oid": "67e0d50b50e38027256b40a0"
+      }
+    }
+  ],
+  "total_price": 145000,
+  "payment_method": "COD",
+  "status": "Completed",
+  "created_at": {
+    "$date": "2025-03-24T03:44:21.188Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e0e32650e38027256b41fb"
+  },
+  "user_id": {
+    "$oid": "67cbb4688bed3aff505a063a"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67d7a5ec495d8d1a0fef13c0"
+      },
+      "name": "\"Mưa nhỏ\"",
+      "price": 145000,
+      "quantity": 1,
+      "image": "/uploads/1742185964755.jfif",
+      "_id": {
+        "$oid": "67e0e31350e38027256b41ec"
+      }
+    }
+  ],
+  "total_price": 145000,
+  "payment_method": "COD",
+  "status": "Pending",
+  "created_at": {
+    "$date": "2025-03-24T04:44:22.851Z"
+  },
+  "__v": 0
+}]

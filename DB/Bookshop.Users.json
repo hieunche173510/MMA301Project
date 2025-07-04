@@ -1,0 +1,131 @@
+[{
+  "_id": {
+    "$oid": "67b855e838a7dcab0863d138"
+  },
+  "name": "Admin",
+  "email": "mnanh0126@gmail.com",
+  "password": "$2b$10$kh7bG77eMx7zb14sEUg9BuVbo4u1dbznub5LKs/tK0DqKsXGKXxpa",
+  "role_id": {
+    "$oid": "67b841a3ecb6cc5e38dd0056"
+  },
+  "created_at": {
+    "$date": "2025-02-21T10:33:21.168Z"
+  },
+  "created_by": "",
+  "updated_at": {
+    "$date": "2025-02-21T10:33:21.168Z"
+  },
+  "updated_by": "",
+  "address": "Tam dương, Vĩnh Phúc"
+},
+{
+  "_id": {
+    "$oid": "67bc99b25a2089f96988cd60"
+  },
+  "email": "ann@gmail.com",
+  "password": "Ngocanhnh",
+  "__v": 0,
+  "address": "Tam Dương, Vĩnh Phúc",
+  "name": "ann",
+  "updated_at": {
+    "$date": "2025-02-26T15:32:41.157Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bca0225a2089f96988cd64"
+  },
+  "email": "h@gmail.com",
+  "password": "$2b$10$SkiSQntNqa9HOCph7OMdveocmXvGwEE5H8RWhjxPwHnsvkA8ge8Oq",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bca18a5a2089f96988cd69"
+  },
+  "email": "ha@gmail.com",
+  "password": "$2b$10$rbEh6TLbEoj3nItKhVhpH.ips0OSMw91QNzNBXoKmDHzZI9KeYtCS",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bcb603e001a443833cf73a"
+  },
+  "email": "mi@gmail.com",
+  "username": "mi",
+  "fullname": "mi",
+  "password": "$2b$10$B6y.hU4GFzxekC1aj9ugkumONmI8CCI3xCmr6Q/pS3.PjdJS0LR7q",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67be6d86f462a5df811a9be8"
+  },
+  "email": "hai@gmail.com",
+  "name": "ha",
+  "password": "Ngocanh012",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67be6e24f462a5df811a9beb"
+  },
+  "email": "haibea@gmail.com",
+  "name": "ha",
+  "password": "Ngocanh012",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67beb9ccd988683d1ab32fc5"
+  },
+  "email": "mh@gmail.com",
+  "name": "hihi",
+  "password": "$2b$10$5/uAMRq0SloYOwWjnL8X1.JvLL1rLezkuUDV0loAivk3en5A.9rHO",
+  "role_id": {
+    "$oid": "67b841a3ecb6cc5e38dd0057"
+  },
+  "created_at": {
+    "$date": "2025-02-26T06:50:52.156Z"
+  },
+  "updated_at": {
+    "$date": "2025-02-26T06:50:52.156Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c354058c90386cd206e30a"
+  },
+  "email": "hi@gmail.com",
+  "name": "hi",
+  "password": "$2b$10$7.v063sZoX5HdLRS864WMuGXLRfaXgURKL5oQKUmjs05wTSN53UXi",
+  "role_id": {
+    "$oid": "67b841a3ecb6cc5e38dd0057"
+  },
+  "created_at": {
+    "$date": "2025-03-01T18:37:57.788Z"
+  },
+  "updated_at": {
+    "$date": "2025-03-01T18:37:57.788Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67cbb4688bed3aff505a063a"
+  },
+  "email": "mnanhh0126@gmail.com",
+  "name": "anh",
+  "password": "$2b$10$tdkSxNTJ0dMeMJG7eVZTpeZxpmocl1aO6JbALdxNjHYZh8fJ5ZKiC",
+  "role_id": {
+    "$oid": "67b841a3ecb6cc5e38dd0057"
+  },
+  "created_at": {
+    "$date": "2025-03-08T03:07:20.279Z"
+  },
+  "updated_at": {
+    "$date": "2025-03-08T03:07:20.279Z"
+  },
+  "__v": 0
+}]
