@@ -1,0 +1,160 @@
+[{
+  "_id": {
+    "$oid": "67d7a5ec495d8d1a0fef13c0"
+  },
+  "name": "React Native Weather App",
+  "category_id": {
+    "$oid": "67bd34f89680bd56be08e178"
+  },
+  "author": "Cheng",
+  "stock": 24,
+  "description": "Complete React Native weather app with API integration, modern UI design, and location services",
+  "price": 145000,
+  "image": "/uploads/1742185964755.jfif",
+  "file": "/uploads/file-test.zip",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d7bb686571e519d32af0ec"
+  },
+  "name": "Vue.js E-commerce Dashboard",
+  "category_id": {
+    "$oid": "67bd34f89680bd56be08e178"
+  },
+  "author": "Cheng",
+  "stock": 24,
+  "description": "Modern Vue.js admin dashboard for e-commerce management with charts, analytics, and CRUD operations",
+  "price": 145000,
+  "image": "/uploads/1742191464403.png",
+  "file": "/uploads/file-test.zip",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67dad618e0e2c0600cc1e19f"
+  },
+  "name": "Flutter Chat Application",
+  "category_id": {
+    "$oid": "67bd34e69680bd56be08e176"
+  },
+  "author": "Cheng",
+  "stock": 24,
+  "description": "Real-time chat application built with Flutter, Firebase backend, push notifications, and file sharing",
+  "price": 145000,
+  "image": "/uploads/1742394904978.png",
+  "file": "/uploads/file-test.zip",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67df8771f5682e051e89a292"
+  },
+  "name": "Node.js REST API Boilerplate",
+  "category_id": {
+    "$oid": "67bd34f89680bd56be08e178"
+  },
+  "author": "Cheng",
+  "stock": 24,
+  "description": "Complete Node.js REST API with authentication, MongoDB, validation, error handling, and documentation",
+  "price": 145000,
+  "image": "/uploads/1742702449207.png",
+  "file": "/uploads/file-test.zip",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67df94d559b117bb31e5319c"
+  },
+  "name": "Unity 2D Platformer Game",
+  "category_id": {
+    "$oid": "67cf9c0755bcd1ae8e8c0b5b"
+  },
+  "author": "changg",
+  "stock": 14,
+  "description": "Complete 2D platformer game with player controls, enemies, power-ups, and level progression",
+  "price": 145000,
+  "image": "/uploads/1742705877791.jpg",
+  "file": "/uploads/file-test.zip",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e0d86150e38027256b410e"
+  },
+  "name": "Python Desktop Calculator",
+  "category_id": {
+    "$oid": "67bd3f66196f4a65378cd053"
+  },
+  "author": "Changg",
+  "stock": 15,
+  "description": "Modern desktop calculator built with Python Tkinter, advanced functions, and beautiful UI",
+  "price": 145000,
+  "image": "/uploads/1742788704944.jpg",
+  "file": "/uploads/file-test.zip",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686a51cc75c197a84a4b6027"
+  },
+  "name": "aa",
+  "category_id": {
+    "$oid": "67bd34e69680bd56be08e176"
+  },
+  "author": "aaa",
+  "stock": 10,
+  "description": "aaa",
+  "price": 111111,
+  "image": "/uploads/1751798220941.png",
+  "file": "/uploads/1751798220941.rar",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686a527775c197a84a4b6036"
+  },
+  "name": "aa23",
+  "category_id": {
+    "$oid": "67bd34e69680bd56be08e176"
+  },
+  "author": "aaa",
+  "stock": 10,
+  "description": "aaaa",
+  "price": 100000,
+  "image": "/uploads/1751798391348.png",
+  "file": "/uploads/1751798391348.rar",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686a540c65011fbb8ea1c4e3"
+  },
+  "name": "hehe",
+  "category_id": {
+    "$oid": "67bd34e69680bd56be08e176"
+  },
+  "author": "aaaaa",
+  "stock": 10,
+  "description": "aaaaa",
+  "price": 10000,
+  "image": "/uploads/1751798796471.png",
+  "file": "/uploads/1751798796471.rar",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686a547665011fbb8ea1c530"
+  },
+  "name": "hehe2",
+  "category_id": {
+    "$oid": "67bd34e69680bd56be08e176"
+  },
+  "author": "aaaaa",
+  "stock": 10,
+  "description": "aaaaa",
+  "price": 10000,
+  "image": "/uploads/1751798902743.png",
+  "file": "/uploads/1751798902743.rar",
+  "__v": 0
+}]
