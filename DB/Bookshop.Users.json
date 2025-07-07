@@ -4,7 +4,7 @@
   },
   "name": "Admin",
   "email": "mnanh0126@gmail.com",
-  "password": "$2b$10$kh7bG77eMx7zb14sEUg9BuVbo4u1dbznub5LKs/tK0DqKsXGKXxpa",
+  "password": "$2b$10$C.MfYMBN1WGfSFXa3WQ5E.1tRytkRpgSADXYUlQhn4zS4hb.uOYl2",
   "role_id": {
     "$oid": "67b841a3ecb6cc5e38dd0056"
   },
@@ -126,6 +126,24 @@
   },
   "updated_at": {
     "$date": "2025-03-08T03:07:20.279Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6866a8c05e179705957ad9b8"
+  },
+  "email": "haha@gmail.com",
+  "name": "haha",
+  "password": "$2b$10$C.MfYMBN1WGfSFXa3WQ5E.1tRytkRpgSADXYUlQhn4zS4hb.uOYl2",
+  "role_id": {
+    "$oid": "67b841a3ecb6cc5e38dd0057"
+  },
+  "created_at": {
+    "$date": "2025-07-03T15:58:56.138Z"
+  },
+  "updated_at": {
+    "$date": "2025-07-03T15:58:56.138Z"
   },
   "__v": 0
 }]
