@@ -1,0 +1,28 @@
+[
+  {
+    "_id": {
+      "$oid": "67bd34e69680bd56be08e176"
+    },
+    "name": "Mobile App"
+  },
+  {
+    "_id": {
+      "$oid": "67bd34f89680bd56be08e178"
+    },
+    "name": "Web Development"
+  },
+  {
+    "_id": {
+      "$oid": "67bd3f66196f4a65378cd053"
+    },
+    "name": "Desktop App",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67cf9c0755bcd1ae8e8c0b5b"
+    },
+    "name": "Game Development",
+    "__v": 0
+  }
+]

@@ -1,0 +1,981 @@
+[{
+  "_id": {
+    "$oid": "67db1cc43315fa6a4a6284a9"
+  },
+  "user_id": {
+    "$oid": "67cbb4688bed3aff505a063a"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67c0a762065d363b1e961733"
+      },
+      "name": "Hạ đỏ",
+      "price": 120000,
+      "quantity": 1,
+      "image": "http://example.com/image.jpg",
+      "_id": {
+        "$oid": "67db1cbb3315fa6a4a628498"
+      }
+    }
+  ],
+  "total_price": 120000,
+  "payment_method": "COD",
+  "status": "Completed",
+  "created_at": {
+    "$date": "2025-03-19T19:36:36.542Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67db1db8cb9030f97bed6c1c"
+  },
+  "user_id": {
+    "$oid": "67cbb4688bed3aff505a063a"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67c0a77b065d363b1e961736"
+      },
+      "name": "Cây chuối non đi giày xanh",
+      "price": 125000,
+      "quantity": 1,
+      "image": "http://example.com/image.jpg",
+      "_id": {
+        "$oid": "67db1dafcb9030f97bed6c0b"
+      }
+    }
+  ],
+  "total_price": 125000,
+  "payment_method": "COD",
+  "status": "Delivering",
+  "created_at": {
+    "$date": "2025-03-19T19:40:40.862Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67df9b9459b117bb31e5320f"
+  },
+  "user_id": {
+    "$oid": "67cbb4688bed3aff505a063a"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67c0a77b065d363b1e961736"
+      },
+      "name": "Cây chuối non đi giày xanh",
+      "price": 125000,
+      "quantity": 1,
+      "image": "http://example.com/image.jpg",
+      "_id": {
+        "$oid": "67df9b8359b117bb31e531f6"
+      }
+    },
+    {
+      "product_id": {
+        "$oid": "67cf99ab8814ea1821011e7e"
+      },
+      "name": "Người đàn bà làng chài",
+      "price": 115000,
+      "quantity": 1,
+      "image": "",
+      "_id": {
+        "$oid": "67df9b8859b117bb31e531fd"
+      }
+    }
+  ],
+  "total_price": 240000,
+  "payment_method": "COD",
+  "status": "Pending",
+  "created_at": {
+    "$date": "2025-03-23T05:26:44.052Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e031e402eeb713873ce87e"
+  },
+  "user_id": {
+    "$oid": "67cbb4688bed3aff505a063a"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67d7a5ec495d8d1a0fef13c0"
+      },
+      "name": "\"Mưa nhỏ\"",
+      "price": 145000,
+      "quantity": 1,
+      "image": "/uploads/1742185964755.jfif",
+      "_id": {
+        "$oid": "67e031da02eeb713873ce86f"
+      }
+    }
+  ],
+  "total_price": 145000,
+  "payment_method": "COD",
+  "status": "Cancelled",
+  "created_at": {
+    "$date": "2025-03-23T16:08:04.387Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e0d51550e38027256b40af"
+  },
+  "user_id": {
+    "$oid": "67cbb4688bed3aff505a063a"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67dad618e0e2c0600cc1e19f"
+      },
+      "name": "\"Gió\"",
+      "price": 145000,
+      "quantity": 1,
+      "image": "/uploads/1742394904978.png",
+      "_id": {
+        "$oid": "67e0d50b50e38027256b40a0"
+      }
+    }
+  ],
+  "total_price": 145000,
+  "payment_method": "COD",
+  "status": "Completed",
+  "created_at": {
+    "$date": "2025-03-24T03:44:21.188Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e0e32650e38027256b41fb"
+  },
+  "user_id": {
+    "$oid": "67cbb4688bed3aff505a063a"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67d7a5ec495d8d1a0fef13c0"
+      },
+      "name": "\"Mưa nhỏ\"",
+      "price": 145000,
+      "quantity": 1,
+      "image": "/uploads/1742185964755.jfif",
+      "_id": {
+        "$oid": "67e0e31350e38027256b41ec"
+      }
+    }
+  ],
+  "total_price": 145000,
+  "payment_method": "COD",
+  "status": "Pending",
+  "created_at": {
+    "$date": "2025-03-24T04:44:22.851Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68679dfd8490a3f085ec206d"
+  },
+  "user_id": {
+    "$oid": "6866a8c05e179705957ad9b8"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67d7a5ec495d8d1a0fef13c0"
+      },
+      "name": "React Native Weather App",
+      "price": 145000,
+      "quantity": 3,
+      "image": "/uploads/1742185964755.jfif",
+      "_id": {
+        "$oid": "68679060ad9e82801934c46f"
+      }
+    },
+    {
+      "product_id": {
+        "$oid": "67d7bb686571e519d32af0ec"
+      },
+      "name": "Vue.js E-commerce Dashboard",
+      "price": 145000,
+      "quantity": 2,
+      "image": "/uploads/1742191464403.png",
+      "_id": {
+        "$oid": "68679068ad9e82801934c482"
+      }
+    }
+  ],
+  "total_price": 725000,
+  "payment_method": "COD",
+  "status": "Pending",
+  "created_at": {
+    "$date": "2025-07-04T09:25:17.660Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6867a053b79dd7c8e7efe043"
+  },
+  "user_id": {
+    "$oid": "6866a8c05e179705957ad9b8"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67d7a5ec495d8d1a0fef13c0"
+      },
+      "name": "React Native Weather App",
+      "price": 145000,
+      "quantity": 1,
+      "image": "/uploads/1742185964755.jfif",
+      "_id": {
+        "$oid": "6867a053b79dd7c8e7efe044"
+      }
+    }
+  ],
+  "total_price": 145000,
+  "payment_method": "VNPay",
+  "status": "Pending",
+  "created_at": {
+    "$date": "2025-07-04T09:35:15.231Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6867a2c67215a5ac368fd150"
+  },
+  "user_id": {
+    "$oid": "6866a8c05e179705957ad9b8"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67d7a5ec495d8d1a0fef13c0"
+      },
+      "name": "React Native Weather App",
+      "price": 145000,
+      "quantity": 1,
+      "image": "/uploads/1742185964755.jfif",
+      "_id": {
+        "$oid": "6867a2c67215a5ac368fd151"
+      }
+    }
+  ],
+  "total_price": 145000,
+  "payment_method": "VNPay",
+  "status": "Pending",
+  "created_at": {
+    "$date": "2025-07-04T09:45:42.070Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6867aaf879b2b8d4180fe784"
+  },
+  "user_id": {
+    "$oid": "6866a8c05e179705957ad9b8"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67d7a5ec495d8d1a0fef13c0"
+      },
+      "name": "React Native Weather App",
+      "price": 145000,
+      "quantity": 2,
+      "image": "/uploads/1742185964755.jfif",
+      "_id": {
+        "$oid": "6867aaf879b2b8d4180fe785"
+      }
+    }
+  ],
+  "total_price": 290000,
+  "payment_method": "VNPay",
+  "status": "Pending",
+  "created_at": {
+    "$date": "2025-07-04T10:20:40.469Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6867ab0779b2b8d4180fe789"
+  },
+  "user_id": {
+    "$oid": "6866a8c05e179705957ad9b8"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67d7a5ec495d8d1a0fef13c0"
+      },
+      "name": "React Native Weather App",
+      "price": 145000,
+      "quantity": 2,
+      "image": "/uploads/1742185964755.jfif",
+      "_id": {
+        "$oid": "6867ab0779b2b8d4180fe78a"
+      }
+    }
+  ],
+  "total_price": 290000,
+  "payment_method": "VNPay",
+  "status": "Pending",
+  "created_at": {
+    "$date": "2025-07-04T10:20:55.827Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6867ad8acf6081bd2a19d93c"
+  },
+  "user_id": {
+    "$oid": "6866a8c05e179705957ad9b8"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67d7a5ec495d8d1a0fef13c0"
+      },
+      "name": "React Native Weather App",
+      "price": 145000,
+      "quantity": 2,
+      "image": "/uploads/1742185964755.jfif",
+      "_id": {
+        "$oid": "6867ad8acf6081bd2a19d93d"
+      }
+    }
+  ],
+  "total_price": 290000,
+  "payment_method": "VNPay",
+  "status": "Pending",
+  "created_at": {
+    "$date": "2025-07-04T10:31:38.492Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6867d91e1b064b7f80eca9c6"
+  },
+  "user_id": {
+    "$oid": "6866a8c05e179705957ad9b8"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67d7a5ec495d8d1a0fef13c0"
+      },
+      "name": "React Native Weather App",
+      "price": 145000,
+      "quantity": 2,
+      "image": "/uploads/1742185964755.jfif",
+      "_id": {
+        "$oid": "6867d91e1b064b7f80eca9c7"
+      }
+    }
+  ],
+  "total_price": 290000,
+  "payment_method": "VNPay",
+  "status": "Pending",
+  "created_at": {
+    "$date": "2025-07-04T13:37:34.761Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6867e6201b064b7f80ecaa38"
+  },
+  "user_id": {
+    "$oid": "6866a8c05e179705957ad9b8"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67d7a5ec495d8d1a0fef13c0"
+      },
+      "name": "React Native Weather App",
+      "price": 145000,
+      "quantity": 1,
+      "image": "/uploads/1742185964755.jfif",
+      "_id": {
+        "$oid": "6867e6201b064b7f80ecaa39"
+      }
+    }
+  ],
+  "total_price": 145000,
+  "payment_method": "VNPay",
+  "status": "Pending",
+  "created_at": {
+    "$date": "2025-07-04T14:33:04.822Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686a246ea69fc03a4ec2691c"
+  },
+  "user_id": {
+    "$oid": "6866a8c05e179705957ad9b8"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67d7a5ec495d8d1a0fef13c0"
+      },
+      "name": "React Native Weather App",
+      "price": 145000,
+      "quantity": 1,
+      "image": "/uploads/1742185964755.jfif",
+      "_id": {
+        "$oid": "686a246ea69fc03a4ec2691d"
+      }
+    }
+  ],
+  "total_price": 145000,
+  "payment_method": "VNPay",
+  "status": "Pending",
+  "created_at": {
+    "$date": "2025-07-06T07:23:26.417Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686a2470a69fc03a4ec26921"
+  },
+  "user_id": {
+    "$oid": "6866a8c05e179705957ad9b8"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67d7a5ec495d8d1a0fef13c0"
+      },
+      "name": "React Native Weather App",
+      "price": 145000,
+      "quantity": 1,
+      "image": "/uploads/1742185964755.jfif",
+      "_id": {
+        "$oid": "686a2470a69fc03a4ec26922"
+      }
+    }
+  ],
+  "total_price": 145000,
+  "payment_method": "VNPay",
+  "status": "Pending",
+  "created_at": {
+    "$date": "2025-07-06T07:23:28.702Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686a2473a69fc03a4ec26925"
+  },
+  "user_id": {
+    "$oid": "6866a8c05e179705957ad9b8"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67d7a5ec495d8d1a0fef13c0"
+      },
+      "name": "React Native Weather App",
+      "price": 145000,
+      "quantity": 1,
+      "image": "/uploads/1742185964755.jfif",
+      "_id": {
+        "$oid": "686a2473a69fc03a4ec26926"
+      }
+    }
+  ],
+  "total_price": 145000,
+  "payment_method": "COD",
+  "status": "Pending",
+  "created_at": {
+    "$date": "2025-07-06T07:23:31.956Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686a2783a69fc03a4ec26965"
+  },
+  "user_id": {
+    "$oid": "6866a8c05e179705957ad9b8"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67d7a5ec495d8d1a0fef13c0"
+      },
+      "name": "React Native Weather App",
+      "price": 145000,
+      "quantity": 1,
+      "image": "/uploads/1742185964755.jfif",
+      "_id": {
+        "$oid": "686a2783a69fc03a4ec26966"
+      }
+    }
+  ],
+  "total_price": 145000,
+  "payment_method": "VNPay",
+  "status": "Pending",
+  "created_at": {
+    "$date": "2025-07-06T07:36:35.659Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686a2835a69fc03a4ec26991"
+  },
+  "user_id": {
+    "$oid": "6866a8c05e179705957ad9b8"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67d7a5ec495d8d1a0fef13c0"
+      },
+      "name": "React Native Weather App",
+      "price": 145000,
+      "quantity": 1,
+      "image": "/uploads/1742185964755.jfif",
+      "_id": {
+        "$oid": "686a2835a69fc03a4ec26992"
+      }
+    }
+  ],
+  "total_price": 145000,
+  "payment_method": "COD",
+  "status": "Pending",
+  "created_at": {
+    "$date": "2025-07-06T07:39:33.835Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686a2bcca69fc03a4ec269c1"
+  },
+  "user_id": {
+    "$oid": "6866a8c05e179705957ad9b8"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67d7a5ec495d8d1a0fef13c0"
+      },
+      "name": "React Native Weather App",
+      "price": 145000,
+      "quantity": 1,
+      "image": "/uploads/1742185964755.jfif",
+      "_id": {
+        "$oid": "686a2bcca69fc03a4ec269c2"
+      }
+    }
+  ],
+  "total_price": 145000,
+  "payment_method": "VNPay",
+  "status": "Pending",
+  "created_at": {
+    "$date": "2025-07-06T07:54:52.583Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686a2bd0a69fc03a4ec269c6"
+  },
+  "user_id": {
+    "$oid": "6866a8c05e179705957ad9b8"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67d7a5ec495d8d1a0fef13c0"
+      },
+      "name": "React Native Weather App",
+      "price": 145000,
+      "quantity": 1,
+      "image": "/uploads/1742185964755.jfif",
+      "_id": {
+        "$oid": "686a2bd0a69fc03a4ec269c7"
+      }
+    }
+  ],
+  "total_price": 145000,
+  "payment_method": "COD",
+  "status": "Pending",
+  "created_at": {
+    "$date": "2025-07-06T07:54:56.914Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686a2be5a69fc03a4ec269eb"
+  },
+  "user_id": {
+    "$oid": "6866a8c05e179705957ad9b8"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67d7a5ec495d8d1a0fef13c0"
+      },
+      "name": "React Native Weather App",
+      "price": 145000,
+      "quantity": 1,
+      "image": "/uploads/1742185964755.jfif",
+      "_id": {
+        "$oid": "686a2be5a69fc03a4ec269ec"
+      }
+    }
+  ],
+  "total_price": 145000,
+  "payment_method": "VNPay",
+  "status": "Pending",
+  "created_at": {
+    "$date": "2025-07-06T07:55:17.750Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686a2df5d1c61369372842df"
+  },
+  "user_id": {
+    "$oid": "6866a8c05e179705957ad9b8"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67d7a5ec495d8d1a0fef13c0"
+      },
+      "name": "React Native Weather App",
+      "price": 145000,
+      "quantity": 1,
+      "image": "/uploads/1742185964755.jfif",
+      "_id": {
+        "$oid": "686a2df5d1c61369372842e0"
+      }
+    }
+  ],
+  "total_price": 145000,
+  "payment_method": "COD",
+  "status": "Pending",
+  "created_at": {
+    "$date": "2025-07-06T08:04:05.096Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686a3255d1c6136937284330"
+  },
+  "user_id": {
+    "$oid": "6866a8c05e179705957ad9b8"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67d7a5ec495d8d1a0fef13c0"
+      },
+      "name": "React Native Weather App",
+      "price": 145000,
+      "quantity": 1,
+      "image": "/uploads/1742185964755.jfif",
+      "_id": {
+        "$oid": "686a3255d1c6136937284331"
+      }
+    }
+  ],
+  "total_price": 145000,
+  "payment_method": "COD",
+  "status": "Pending",
+  "created_at": {
+    "$date": "2025-07-06T08:22:45.766Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686a3df8d684dcd18ea93634"
+  },
+  "user_id": {
+    "$oid": "6866a8c05e179705957ad9b8"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67d7a5ec495d8d1a0fef13c0"
+      },
+      "name": "React Native Weather App",
+      "price": 145000,
+      "quantity": 1,
+      "image": "/uploads/1742185964755.jfif",
+      "_id": {
+        "$oid": "686a3df8d684dcd18ea93635"
+      }
+    }
+  ],
+  "total_price": 145000,
+  "payment_method": "Banking",
+  "status": "Pending",
+  "created_at": {
+    "$date": "2025-07-06T09:12:24.740Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686a3fa61c970e3be4338b92"
+  },
+  "user_id": {
+    "$oid": "6866a8c05e179705957ad9b8"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67d7a5ec495d8d1a0fef13c0"
+      },
+      "name": "React Native Weather App",
+      "price": 145000,
+      "quantity": 2,
+      "image": "/uploads/1742185964755.jfif",
+      "_id": {
+        "$oid": "686a3fa61c970e3be4338b93"
+      }
+    }
+  ],
+  "total_price": 290000,
+  "payment_method": "COD",
+  "status": "Pending",
+  "created_at": {
+    "$date": "2025-07-06T09:19:34.718Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686a41d19d553fbfdb83e11e"
+  },
+  "user_id": {
+    "$oid": "6866a8c05e179705957ad9b8"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67d7a5ec495d8d1a0fef13c0"
+      },
+      "name": "React Native Weather App",
+      "price": 145000,
+      "quantity": 1,
+      "image": "/uploads/1742185964755.jfif",
+      "_id": {
+        "$oid": "686a41d19d553fbfdb83e11f"
+      }
+    }
+  ],
+  "total_price": 145000,
+  "payment_method": "COD",
+  "status": "Pending",
+  "created_at": {
+    "$date": "2025-07-06T09:28:49.262Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686a44be052cc1b8e0e62174"
+  },
+  "user_id": {
+    "$oid": "6866a8c05e179705957ad9b8"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67d7a5ec495d8d1a0fef13c0"
+      },
+      "name": "React Native Weather App",
+      "price": 145000,
+      "quantity": 1,
+      "image": "/uploads/1742185964755.jfif",
+      "_id": {
+        "$oid": "686a44be052cc1b8e0e62175"
+      }
+    }
+  ],
+  "total_price": 145000,
+  "payment_method": "COD",
+  "status": "Pending",
+  "created_at": {
+    "$date": "2025-07-06T09:41:18.119Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686a481708736e33a19a21a1"
+  },
+  "user_id": {
+    "$oid": "6866a8c05e179705957ad9b8"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67d7a5ec495d8d1a0fef13c0"
+      },
+      "name": "React Native Weather App",
+      "price": 145000,
+      "quantity": 1,
+      "image": "/uploads/1742185964755.jfif",
+      "_id": {
+        "$oid": "686a481708736e33a19a21a2"
+      }
+    }
+  ],
+  "total_price": 145000,
+  "payment_method": "COD",
+  "status": "Pending",
+  "created_at": {
+    "$date": "2025-07-06T09:55:35.401Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686a4a6bb6ac4b0e0f8ab4e5"
+  },
+  "user_id": {
+    "$oid": "6866a8c05e179705957ad9b8"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67d7a5ec495d8d1a0fef13c0"
+      },
+      "name": "React Native Weather App",
+      "price": 145000,
+      "quantity": 1,
+      "image": "/uploads/1742185964755.jfif",
+      "_id": {
+        "$oid": "686a4a6bb6ac4b0e0f8ab4e6"
+      }
+    }
+  ],
+  "total_price": 145000,
+  "payment_method": "COD",
+  "status": "Paid",
+  "created_at": {
+    "$date": "2025-07-06T10:05:31.746Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686a4cb0b6ac4b0e0f8ab5b7"
+  },
+  "user_id": {
+    "$oid": "6866a8c05e179705957ad9b8"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67d7a5ec495d8d1a0fef13c0"
+      },
+      "name": "React Native Weather App",
+      "price": 145000,
+      "quantity": 1,
+      "image": "/uploads/1742185964755.jfif",
+      "_id": {
+        "$oid": "686a4cb0b6ac4b0e0f8ab5b8"
+      }
+    }
+  ],
+  "total_price": 145000,
+  "payment_method": "COD",
+  "status": "Paid",
+  "created_at": {
+    "$date": "2025-07-06T10:15:12.656Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686a52c775c197a84a4b6054"
+  },
+  "user_id": {
+    "$oid": "6866a8c05e179705957ad9b8"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67df94d559b117bb31e5319c"
+      },
+      "name": "Unity 2D Platformer Game",
+      "price": 145000,
+      "quantity": 1,
+      "image": "/uploads/1742705877791.jpg",
+      "_id": {
+        "$oid": "686a52c775c197a84a4b6055"
+      }
+    }
+  ],
+  "total_price": 145000,
+  "payment_method": "COD",
+  "status": "Paid",
+  "created_at": {
+    "$date": "2025-07-06T10:41:11.775Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686a545e65011fbb8ea1c502"
+  },
+  "user_id": {
+    "$oid": "6866a8c05e179705957ad9b8"
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "67d7a5ec495d8d1a0fef13c0"
+      },
+      "name": "React Native Weather App",
+      "price": 145000,
+      "quantity": 1,
+      "image": "/uploads/1742185964755.jfif",
+      "_id": {
+        "$oid": "686a545e65011fbb8ea1c503"
+      }
+    }
+  ],
+  "total_price": 145000,
+  "payment_method": "COD",
+  "status": "Paid",
+  "created_at": {
+    "$date": "2025-07-06T10:47:58.420Z"
+  },
+  "__v": 0
+}]

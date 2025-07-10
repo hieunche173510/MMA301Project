@@ -1,0 +1,96 @@
+[{
+  "_id": {
+    "$oid": "67bfff02d549005553a41692"
+  },
+  "user_id": {
+    "$oid": "67bc99b25a2089f96988cd60"
+  },
+  "total_price": 150000,
+  "item": [
+    {
+      "product_id": {
+        "$oid": "67bd486a9b0cfdf245e0014e"
+      },
+      "name": "Những bông hoa nhỏ",
+      "quantity": 2,
+      "price": 75000,
+      "image": "http://",
+      "selected": true,
+      "_id": {
+        "$oid": "67c0017ca1819b78806f069f"
+      }
+    }
+  ],
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "67c007d47073580454fa7bd4"
+  },
+  "user_id": {
+    "$oid": "67be6e24f462a5df811a9beb"
+  },
+  "item": [],
+  "total_price": 0,
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "67cdb835692c2ed24187cdd4"
+  },
+  "user_id": {
+    "$oid": "67cbb4688bed3aff505a063a"
+  },
+  "item": [
+    {
+      "product_id": {
+        "$oid": "67d7a5ec495d8d1a0fef13c0"
+      },
+      "name": "\"Mưa nhỏ\"",
+      "quantity": 1,
+      "price": 145000,
+      "image": "/uploads/1742185964755.jfif",
+      "selected": true,
+      "_id": {
+        "$oid": "68495d4533db6348f241e8e9"
+      }
+    },
+    {
+      "product_id": {
+        "$oid": "67d7bb686571e519d32af0ec"
+      },
+      "name": "\"Mây\"",
+      "quantity": 1,
+      "price": 145000,
+      "image": "/uploads/1742191464403.png",
+      "selected": true,
+      "_id": {
+        "$oid": "68495d4f33db6348f241e8f5"
+      }
+    }
+  ],
+  "total_price": 290000,
+  "__v": 81
+},
+{
+  "_id": {
+    "$oid": "67ceac0108a3393d797b21a1"
+  },
+  "user_id": {
+    "$oid": "67c354058c90386cd206e30a"
+  },
+  "item": [],
+  "total_price": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68679060ad9e82801934c46d"
+  },
+  "user_id": {
+    "$oid": "6866a8c05e179705957ad9b8"
+  },
+  "item": [],
+  "total_price": 0,
+  "__v": 23
+}]
