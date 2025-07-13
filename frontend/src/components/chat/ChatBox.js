@@ -31,10 +31,12 @@ const ChatBox = () => {
   const flatListRef = useRef(null);
   const inputRef = useRef(null);
 
+  // Khởi tạo Gemini khi component được mount
   useEffect(() => {
     initGeminiModel();
   }, []);
 
+  // Xử lý gửi tin nhắn
   const handleSend = async () => {
     if (inputMessage.trim() === "") return;
 
@@ -44,38 +46,46 @@ const ChatBox = () => {
       isUser: true,
     };
 
-    setMessages((prev) => [...prev, userMessage]);
+    setMessages((prevMessages) => [...prevMessages, userMessage]);
     setInputMessage("");
     setIsLoading(true);
 
     try {
-      const reply = await sendMessageToGemini(inputMessage.trim());
+      // Gửi yêu cầu đến API Gemini thông qua service
+      const text = await sendMessageToGemini(inputMessage.trim());
 
+      // Thêm phản hồi từ AI
       const aiMessage = {
         id: (Date.now() + 1).toString(),
-        text: reply,
+        text: text,
         isUser: false,
       };
 
-      setMessages((prev) => [...prev, aiMessage]);
+      setMessages((prevMessages) => [...prevMessages, aiMessage]);
     } catch (error) {
-      setMessages((prev) => [
-        ...prev,
-        {
-          id: (Date.now() + 1).toString(),
-          text: "Đã xảy ra lỗi khi xử lý yêu cầu. Vui lòng thử lại.",
-          isUser: false,
-        },
-      ]);
+      console.error("Error getting response from Gemini:", error);
+
+      // Thông báo lỗi
+      const errorMessage = {
+        id: (Date.now() + 1).toString(),
+        text: "Xin lỗi, đã xảy ra lỗi khi xử lý yêu cầu của bạn. Vui lòng thử lại sau.",
+        isUser: false,
+      };
+
+      setMessages((prevMessages) => [...prevMessages, errorMessage]);
     } finally {
       setIsLoading(false);
     }
   };
 
+  // Tự động cuộn xuống khi có tin nhắn mới
   useEffect(() => {
-    flatListRef.current?.scrollToEnd({ animated: true });
+    if (flatListRef.current && messages.length > 0) {
+      flatListRef.current.scrollToEnd({ animated: true });
+    }
   }, [messages]);
 
+  // Render mỗi tin nhắn
   const renderMessage = ({ item }) => (
     <View
       style={[
@@ -102,8 +112,9 @@ const ChatBox = () => {
         data={messages}
         renderItem={renderMessage}
         keyExtractor={(item) => item.id}
-        contentContainerStyle={styles.messageListContent}
         style={styles.messageList}
+        contentContainerStyle={styles.messageListContent}
+        onLayout={() => flatListRef.current?.scrollToEnd({ animated: false })}
       />
 
       {isLoading && (
@@ -140,10 +151,13 @@ const ChatBox = () => {
   );
 };
 
-const { width } = Dimensions.get("window");
+const { width, height } = Dimensions.get("window");
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: "#f5f5f5" },
+  container: {
+    flex: 1,
+    backgroundColor: "#f5f5f5",
+  },
   header: {
     backgroundColor: "#2196F3",
     paddingVertical: 15,
@@ -151,9 +165,19 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     borderBottomColor: "#0d47a1",
   },
-  headerText: { color: "white", fontSize: 18, fontWeight: "bold" },
-  messageList: { flex: 1, paddingHorizontal: 10 },
-  messageListContent: { paddingTop: 10, paddingBottom: 10 },
+  headerText: {
+    color: "white",
+    fontSize: 18,
+    fontWeight: "bold",
+  },
+  messageList: {
+    flex: 1,
+    paddingHorizontal: 10,
+  },
+  messageListContent: {
+    paddingTop: 10,
+    paddingBottom: 10,
+  },
   messageBubble: {
     maxWidth: width * 0.75,
     padding: 12,
@@ -170,17 +194,25 @@ const styles = StyleSheet.create({
     alignSelf: "flex-start",
     borderBottomLeftRadius: 5,
   },
-  messageText: { fontSize: 16, color: "#000" },
+  messageText: {
+    fontSize: 16,
+    color: "#000",
+  },
   loadingContainer: {
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "center",
     paddingVertical: 8,
   },
-  loadingText: { marginLeft: 10, color: "#666", fontSize: 14 },
+  loadingText: {
+    marginLeft: 10,
+    color: "#666",
+    fontSize: 14,
+  },
   inputContainer: {
     flexDirection: "row",
-    padding: 10,
+    paddingHorizontal: 10,
+    paddingVertical: 10,
     backgroundColor: "#fff",
     alignItems: "flex-end",
     borderTopWidth: 1,
@@ -204,7 +236,9 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     marginLeft: 10,
   },
-  disabledButton: { backgroundColor: "#B0BEC5" },
+  disabledButton: {
+    backgroundColor: "#B0BEC5",
+  },
 });
 
 export default ChatBox;
