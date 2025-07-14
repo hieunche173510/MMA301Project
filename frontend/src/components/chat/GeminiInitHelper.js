@@ -12,6 +12,7 @@ const GeminiInitHelper = () => {
   }, []);
 
   const checkGeminiSetup = async () => {
+    // Kiểm tra xem API key có được cấu hình hay không
     if (!GEMINI_API_KEY || GEMINI_API_KEY === "your_gemini_api_key_here") {
       setErrorMessage(
         "Chưa cấu hình API Key của Gemini. Vui lòng kiểm tra file .env và thêm API key hợp lệ từ Google AI Studio."
@@ -20,25 +21,32 @@ const GeminiInitHelper = () => {
       return;
     }
 
-    const initSuccess = await initGeminiModel();
+    // Thử khởi tạo model
+    const initSuccess = initGeminiModel();
+
     if (!initSuccess) {
       setErrorMessage(
-        "Không thể khởi tạo Gemini AI. Vui lòng kiểm tra:\n\n1. API key hợp lệ\n2. Kết nối internet\n3. Quota API còn đủ\n\nNếu vẫn lỗi, hãy thử tạo API key mới từ Google AI Studio."
+        "Không thể khởi tạo Gemini AI. Vui lòng kiểm tra:\n\n" +
+          "1. API key trong file .env có hợp lệ không\n" +
+          "2. Kết nối internet ổn định\n" +
+          "3. Quota của API key còn đủ\n\n" +
+          "Nếu vẫn gặp lỗi, hãy thử tạo API key mới từ Google AI Studio."
       );
       setShowModal(true);
     }
   };
 
+  const closeModal = () => {
+    setShowModal(false);
+  };
+
   return (
-    <Modal transparent visible={showModal} animationType="fade">
+    <Modal transparent={true} visible={showModal} animationType="fade">
       <View style={styles.modalContainer}>
         <View style={styles.modalContent}>
           <Text style={styles.modalTitle}>Cảnh báo AI Chat</Text>
           <Text style={styles.modalMessage}>{errorMessage}</Text>
-          <TouchableOpacity
-            style={styles.closeButton}
-            onPress={() => setShowModal(false)}
-          >
+          <TouchableOpacity style={styles.closeButton} onPress={closeModal}>
             <Text style={styles.closeButtonText}>Đóng</Text>
           </TouchableOpacity>
         </View>

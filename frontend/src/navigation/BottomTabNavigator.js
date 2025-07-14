@@ -1,47 +1,4 @@
-// import React from "react";
-// import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-// import { NavigationContainer } from "@react-navigation/native";
-// import Icon from "react-native-vector-icons/Feather";
-// import Home from "../screens/Home";
-// import Profile from "../screens/Profile";
-// import Cart from "../screens/Cart";
-// import OrderList from "../screens/OrderList";
 
-// const Tab = createBottomTabNavigator();
-
-// const BottomTabNavigator = () => {
-//   return (
-//     <Tab.Navigator
-//       screenOptions={({ route }) => ({
-//         tabBarIcon: ({ color, size }) => {
-//           let iconName;
-
-//           if (route.name === "Trang chủ") {
-//             iconName = "home";
-//           } else if (route.name === "Giỏ hàng") {
-//             iconName = "shopping-cart";
-//           } else if (route.name === "Đơn hàng") {
-//             iconName = "list";
-
-//           } else if (route.name === "Tài khoản") {
-//             iconName = "user";
-//           }
-
-//           return <Icon name={iconName} size={size} color={color} />;
-//         },
-//         tabBarActiveTintColor: "#6A9E75",
-//         tabBarInactiveTintColor: "gray",
-//       })}
-//     >
-//       <Tab.Screen name="Trang chủ" component={Home} />
-//       <Tab.Screen name="Giỏ hàng" component={Cart} />
-//       <Tab.Screen name="Tài khoản" component={Profile} />
-//       <Tab.Screen name="Đơn hàng" component={OrderList} />
-//     </Tab.Navigator>
-//   );
-// };
-
-// export default BottomTabNavigator;
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { NavigationContainer } from "@react-navigation/native";
