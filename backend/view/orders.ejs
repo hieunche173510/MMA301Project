@@ -1,0 +1,42 @@
+<div class="dashboard">
+  <div class="status-card">
+    Chờ xử lý
+    <h2 id="pending-count">0</h2>
+  </div>
+  <div class="status-card">
+    Đang xử lý
+    <h2 id="processing-count">0</h2>
+  </div>
+  <div class="status-card">
+    Hoàn thành
+    <h2 id="completed-count">0</h2>
+  </div>
+  <div class="status-card">
+    Đã hủy
+    <h2 id="canceled-count">0</h2>
+  </div>
+</div>
+
+<script>
+  // Gọi API lấy thống kê đơn hàng
+  async function fetchOrderStatus() {
+    try {
+      const response = await fetch("/order-status");
+      const data = await response.json();
+
+      // Cập nhật số lượng đơn hàng theo trạng thái
+      document.getElementById("pending-count").textContent = data.Pending || 0;
+      document.getElementById("processing-count").textContent =
+        data.Processing || 0;
+      document.getElementById("completed-count").textContent =
+        data.Completed || 0;
+      document.getElementById("canceled-count").textContent =
+        data.Canceled || data.Cancelled || 0;
+    } catch (error) {
+      console.error("❌ Lỗi khi lấy trạng thái đơn hàng:", error);
+    }
+  }
+
+  // Gọi hàm khi trang load xong
+  window.onload = fetchOrderStatus;
+</script>
